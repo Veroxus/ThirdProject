@@ -10,7 +10,7 @@ int removeCommas (char *line)
         while (strlen(line) > total)
         {
             stop = total;
-                if (line[stop] == ',')
+                if (line[stop] == ' ')
                 {
                     for (i = stop; i < strlen(line); i++)
                     {
